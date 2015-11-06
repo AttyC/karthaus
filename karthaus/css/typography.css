@@ -1,0 +1,27 @@
+/* Typography */
+h3, h4 {
+  color: #900;
+  font-size: 1.2em;
+}
+#homepage h4 {
+  font-size: 0.8em;
+  margin: 0.6em;
+}
+#homepage h3 {
+  margin: 0;
+}
+h2 {
+  font-size: 30px;
+  margin: 20px 0 10px 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #900;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #333;
+}

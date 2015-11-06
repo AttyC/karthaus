@@ -1,0 +1,162 @@
+base
+* {
+  box-sizing: border-box;
+}
+/* end base */
+html, body {
+  background-color: #333;
+  color: #333;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #900;
+}
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+ul {
+  list-style-type: none;
+}
+.navbar-fixed-top {
+  border-bottom: 1px solid #ddd;
+  letter-spacing: 0.0454545em;
+  background: #fff;
+
+}
+.navbar-toggle {
+
+}
+.icon-bar {
+  background-color: #333; 
+}
+.navbar li, footer {
+  font-size: 14px;
+  padding: 0.4em 0;
+}
+.navbar-brand {
+  padding: 7px;
+}
+.navbar-brand span {
+  margin-left: 0.6em;
+}
+.navbar-brand img {
+  width: 40px;
+
+}
+.navbar-brand a:hover{
+  color: #333;
+}
+.jumbotron {
+  padding-bottom: 2em;
+}
+.jumbotron p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+  background-color: #fff;
+}
+.main-text {
+  padding: 0 2em 2em 2em;
+}
+
+
+/*mobile */
+footer {
+  margin-top: 2em;
+  border-top: 1px solid #333;
+  /*position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+  padding: 0;
+  text-align: center;
+} 
+footer ul {
+  padding: 0;
+}
+footer li {
+  margin: 0.3em;
+  line-height: 2em;
+}
+footer a {
+  font-weight: 900;
+}
+footer img {
+  background-color: #333;
+  width: 100px;
+  padding: 0.4em;
+  margin: 0 0.3em;
+}
+#socialLinks a {display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin: 0 0 10px 10px;
+    color: #1f1f1f;
+    text-decoration: none !important;
+  }
+.copyright {
+  font-size: 0.8em;
+}
+.fa {
+  font-size: 2.2em;
+  margin: 0 0.2em;
+  color: #333;
+}
+.contact .fa {
+  font-size: 1.2em;
+  margin: 0.5em
+}
+.contact .fa-linkedin-square, .contact .fa-twitter-square {
+  font-size: 1.7em;
+}
+
+.contact ul {
+  padding: 0;
+}
+
+/* div styles */
+
+ .col-xs-* .col-md-* {
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+.row {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.planning-list img {
+
+}
+li.vis {
+  display: none;
+}
+
+/* image gallery templates */
+
+.jumbotron.gallery {
+  padding-bottom: 2em;
+
+}
+.galleria {
+  height: 600px;
+ 
+}
+.gallery h2 a {
+  font-size: 1em;
+  margin: 0.3em
+}
+
+.contact li {
+  font-size: 1.3em;
+  line-height: 2em;
+}

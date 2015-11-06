@@ -1,0 +1,95 @@
+base
+* {
+  box-sizing: border-box;
+}
+/* end base */
+body {
+
+}
+h1, h2, h3 p,a {
+   font-family: 'Roboto', sans-serif; 
+}
+a {
+  text-decoration: none;
+  color: #900;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/* div styles */
+
+#homepage {
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: center; /* Safari 6.1+ */
+  -webkit-align-items: center; /* Safari 7.0+ */
+ 
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+#homepage div .bg {
+   /* Set rules to fill background */
+  min-height: 50%;
+  background-repeat: no-repeat;
+  /*min-width: 728px;*/
+  
+  /* Set up proportionate scaling */
+  width: 50%;
+  height: auto;
+  
+  /* Set up positioning */
+  position: fixed;
+  
+  display: -webkit-flex; /* Safari */
+ -webkit-justify-content: center; /* Safari 6.1+ */
+ -webkit-align-items: center; /* Safari 7.0+ */
+ 
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+#tl {
+  background: url(../img/setts.jpg);
+  top: 0;
+  left: 0;
+}
+#tr {
+  background: url(../img/rough.jpg);
+  top: 0;
+  right: 0;
+}
+#bl {
+  background: url(../img/metallic.jpg);
+  bottom: 0;
+  left: 0; 
+}
+#br {
+  background: url(../img/fragments.jpg);
+  bottom: 0;
+  right: 0; 
+}
+.logo {
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  margin-left: -4em;
+  margin-top: -2.5em; 
+  background-color: white;
+}
+ .logo img {
+  border: 1px solid #ddd;
+  padding: 1em;
+ }
+
+ .col-xs-6, .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* Typography */
+h3 {
+  color: #900;
+  font-size: 1.8em;
+  font-weight: 300;
+}

@@ -1,0 +1,159 @@
+@media (min-width: 768px) {
+  #homepage h3 {
+    font-size: 3.2em;
+  }
+  #homepage h4 {
+    font-size: 1.1em;
+  }
+  h3 {
+
+  }
+  h4 {
+    
+  }
+  .navbar-brand {
+    padding: auto;
+  }
+  .navbar-brand img {
+    width: auto;
+  }
+  .logo img {
+    padding: 2em;
+  }
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  .navbar>.container-fluid .navbar-brand{
+    padding: 0;
+    margin-left: 1em;
+  }
+
+  footer ul {
+
+  }
+
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .tl {
+      background: url(../img/home/setts_small.jpg);
+        background-size: cover;
+    }
+  .tl a:hover, .tl a:focus {
+    background: url(../img/home/setts_light_small.jpg);
+      background-size: cover;
+
+  }
+  .tr {
+      background: url(../img/home/rough_small.jpg);
+        background-size: cover;
+    }
+  .tr a:hover, .tr a:focus {
+    background: url(../img/home/rough_light_small.jpg);
+      background-size: cover;
+  }
+
+  .bl {
+      background: url(../img/home/metallic_small.jpg);
+        background-size: cover;
+    }
+  .bl a:hover, .bl a:focus {
+    background: url(../img/home/metallic_light_small.jpg);
+      background-size: cover;
+  }
+
+  .br {
+      background: url(../img/home/fragments_small.jpg);
+        background-size: cover;
+    }
+  .br a:hover, .br a:focus {
+    background: url(../img/home/fragments_light_small.jpg);
+      background-size: cover;
+  }
+  .main-text, .main {
+  padding: 0;
+  }
+  .main-image {
+  padding: 0;
+  }
+  footer li {
+    /*line-height: 1.9em;*/
+    margin:0;
+  }
+  footer img {
+  width: 50px;
+  }
+  li.vis {
+    display: inline;
+  }
+  #tab {
+    font-size: 0.7em;
+  }
+  h3 {
+    margin: 1em 0 0 0 ;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    /*position: fixed;*/
+    font-size: 0.8em;
+  }
+  .bg h3 {
+    visibility: visible;
+    color: #D0131C;
+  }
+  .gallery h2 {
+    font-size: 1.2em;
+  }
+}
+
+/* Gallery media queries */
+
+@media (max-width: 350px) and (orientation: portrait) {
+  .galleria {
+    height: 400px;
+  }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .galleria {
+    height: 450px;
+  }
+
+  footer {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 767px) and (orientation: landscape) {
+  .galleria {
+    height: 300px;
+
+  }
+}
+@media (min-width: 768px) and (orientation: portrait) {
+  .galleria {
+    height: 750px;
+  }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+  .galleria {
+    height: 550px;
+  }
+}
+@media (min-width: 969px) and (orientation: landscape) {
+  .galleria {
+    height: 680px;
+  }
+}
+/* Kindle Fire */
+@media (min-width: 1600px) and (max-width: 2500px) {
+  .galleria {
+    height: 2300px;
+  }
+}
+@media (min-width: 2500px)  {
+  .galleria {
+    height: 1200px;
+  }
+}
